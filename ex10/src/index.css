@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'aral', sans-serif;
+}
+nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+nav header {
+
+    position:absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+nav header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+nav header ul li a {
+    color: #111;
+    text-decoration:none;
+    font-size: 13px;
+}
+nav header ul li button {
+    background:#4584ef;
+    border: none;
+    outline: none;
+    padding:8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+nav .main {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav .main .form-search {
+    width: 100%;
+    margin-top: 20px;
+}
+nav .main .form-search #form-search {
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    padding: none;
+    font-size:16px ;
+}
+nav .main .buttons {
+    margin-top: 20px;
+}
+nav .main .buttons button {
+    margin: 0 70px;
+    padding:12px 20px;
+    color: #555;
+    font-size:14px ;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline:none;
+}
+nav .main .buttons button:hover {
+    border:1px solid #ccc;
+}
+nav footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+} nav footer .footer-left {
+    display: flex;
+}
+nav footer .footer-left li {
+    list-style: none;
+}
+nav footer .footer-left li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 25px;
+}
+nav footer .footer-right {
+    display: flex;
+    justify-content:right;
+    margin-right: 50px;
+}
+nav footer .footer-right li {
+    list-style: none;
+}
+nav footer .footer-right li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 5px;
+}
+
